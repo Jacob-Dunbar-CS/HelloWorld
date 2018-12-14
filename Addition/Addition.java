@@ -1,7 +1,6 @@
 public class Addition
 {
 	public static void main(String[] args)
-	//throws Exception
 	{
 		int [] i = new int[2];
 		for (int n = 0; n < i.length; n++) 
