@@ -1,15 +1,11 @@
 public class Addition
 {
-	public static void main(String[] args)
+	public static void main(String [] args)
 	{
 		int [] i = new int[2];
 		for (int n = 0; n < i.length; n++) 
 		{
 			i[n] = n;
-		}
-		if (args.length < 2)
-		{
-			System.out.println("\nNo valid arguments");
 		}
 		try 
 		{
@@ -20,7 +16,7 @@ public class Addition
 		}
 		catch(NumberFormatException e)
 		{
-			System.out.println("\nNot a number");
+			System.out.println("\nNot a whole number");
 		}
 		catch(ArrayIndexOutOfBoundsException a)
 		{
