@@ -11,7 +11,7 @@ public class Addition
 		}
 		catch(NumberFormatException e)
 		{
-			System.out.println("\nNot a whole number");
+			System.out.println("\nPlease input a whole number");	
 		}
 		catch(ArrayIndexOutOfBoundsException a)
 		{
