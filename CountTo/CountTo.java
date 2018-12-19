@@ -12,6 +12,7 @@ public class CountTo
 				{
 					System.out.println(i);
 				}
+				System.out.println("\nDone.");
 				System.exit(1);
 			}
 			else if (countFrom < countTo);
@@ -21,6 +22,7 @@ public class CountTo
 				{
 				System.out.println(i);
 				}
+				System.out.println("\nDone.");
 				System.exit(1);
 			}
 
