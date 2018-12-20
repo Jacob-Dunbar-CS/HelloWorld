@@ -11,11 +11,11 @@ public class Addition
 		}
 		catch(NumberFormatException e)
 		{
-			System.out.println("\nPlease input a whole number");	
+			System.out.println("\nPlease input whole numbers. Must be nine digits or less");	
 		}
 		catch(ArrayIndexOutOfBoundsException a)
 		{
-			System.out.println("\nEnter two numbers");
+			System.out.println("\nEnter two numbers.");
 		}
 	}
 }
